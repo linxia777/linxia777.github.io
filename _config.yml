@@ -1,3 +1,2 @@
 makrdown: redcarpet
-baseurl: /linxia777.github.io
 exclude: ['README.md']
