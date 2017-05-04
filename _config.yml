@@ -1,0 +1,2 @@
+makrdown: redcarpet
+exclude:['README.md']
