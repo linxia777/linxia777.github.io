@@ -3,15 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>this is lin's blog</title>
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}/index.html">home</a>
-          <li><a href="{{site.baseurl}}/new.html">new</a>
-        </ul>
-      </nav>
+    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet"
+    {% include nav.html %}
 
   </head>
   <body>
     {{content}}
   </body>
+  <footer>
+    {% include nav.html %}
+  </footer>
 </html>
